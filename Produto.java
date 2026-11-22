@@ -14,14 +14,14 @@ public static void main(String[] args)
 // conexão no Railway (preencha com os dados do MySQL do Railway:
 // Variables / Connect > "Public Network" -> host, porta, usuário e senha)
 
-String host = "COLE_O_HOST_AQUI";      // ex: roundhouse.proxy.rlwy.net
-String porta = "COLE_A_PORTA_AQUI";    // ex: 12345
-String banco = "railway";              // nome do banco (MYSQL_DATABASE)
+String host = "mysql.railway.internal";      
+String porta = "3306";   
+String banco = "railway";
 
 String url = "jdbc:mysql://" + host + ":" + porta + "/" + banco
         + "?useSSL=false&allowPublicKeyRetrieval=true";
 String usuariobanco = "root";
-String bancosenha = "COLE_A_SENHA_AQUI";
+String bancosenha = "zWXGhnfLMrvAHtULCnWjqANvyUBNVZKv";
 
 
 Scanner sc = new Scanner(System.in);
